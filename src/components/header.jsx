@@ -6,7 +6,7 @@ export default function Header() {
         <ul>
             <li className="flex ">
                 <h3 className="font-main mx-3 text-hijau text-2xl"><Link to="/about">about</Link></h3>
-                <h3 className="font-main mx-3 text-hijau text-2xl"><a href="#">Github</a></h3>
+                <h3 className="font-main mx-3 text-hijau text-2xl"><a href="https://github.com/Ameeeek/DadJokes">Github</a></h3>
             </li>
         </ul>
     </div>
