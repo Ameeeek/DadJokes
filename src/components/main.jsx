@@ -43,22 +43,22 @@ function Main() {
         setSetup(res.body[0].setup);
     }
     return (
-        <div className="m-16 text-center">
-            <div className="cards-container flex justify-evenly">
-                <div className="bg-hitam m-12">
-                    <div className="setupCards w-80 border-white border-4 rounded-md   bg-hitam m-12 h-fit ">
+        <div className="m-16 hp:m-0 text-center">
+            <div className="cards-container flex hp:flex hp:flex-col justify-evenly">
+                <div className="bg-hitam hp:m-0 m-12">
+                    <div className="setupCards w-80 hp:w-fit border-white border-4 rounded-md  hp:m-0 bg-hitam m-12 h-fit ">
                         <p
-                            className="text-2xl   text-center font-main m-12 text-hijau"
+                            className="text-2xl hp:text-sm  text-center font-main hp:m-0 m-12 text-hijau"
                             id="setup"
                         >
                             {setup}
                         </p>
                     </div>
                 </div>
-                <div className="bg-hitam m-12">
-                <div className="setupCards w-80 border-white border-4 rounded-md   bg-white m-12 h-fit ">
+                <div className="bg-hitam hp:m-0 m-12">
+                <div className="setupCards w-80 hp:w-fit border-white border-4 rounded-md hp:m-0 hp:text-xs  bg-white m-12 h-fit ">
                         <p
-                            className="text-2xl   text-center font-main m-12 text-hitam"
+                            className="text-2xl hp:text-xs  text-center font-main hp:m-0 m-12 text-hitam"
                             id="setup"
                         >
                             {punchline}
